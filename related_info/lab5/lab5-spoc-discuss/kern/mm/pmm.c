@@ -158,7 +158,7 @@ alloc_pages(size_t n) {
     
     while (1)
     {
-         local_intr_save(intr_flag);
+         local_intr_save(intr_flag); 
          {
               page = pmm_manager->alloc_pages(n);
          }

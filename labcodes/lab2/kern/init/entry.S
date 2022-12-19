@@ -67,4 +67,3 @@ __boot_pt1:
     .long i * PGSIZE + (PTE_P | PTE_W)
     .set i, i + 1
 .endr
-
